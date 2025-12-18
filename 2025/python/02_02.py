@@ -21,6 +21,7 @@ try:
           ii = str(i)
           iii = len(ii)
           for l in range(1, int(iii / 2) + 1):
+            if iii % l != 0: break
             chunk = [ ii[t:t+l] for t in range(0, iii, l) ]
             equal = True
             for t in chunk:
