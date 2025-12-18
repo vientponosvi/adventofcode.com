@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+#01_demo : 6
+#01_01 : 6289
+
 import sys
 
 if len(sys.argv) != 2:
@@ -23,5 +26,3 @@ try:
 except FileNotFoundError:
   print(f"File not found: {filename}")
   sys.exit(1)
-
-#6289
